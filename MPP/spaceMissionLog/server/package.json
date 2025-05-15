@@ -7,6 +7,7 @@
         "demo": "node run-demo.js"
     },
     "dependencies": {
+        "@faker-js/faker": "^9.8.0",
         "axios": "^1.9.0",
         "bcryptjs": "^3.0.2",
         "cors": "^2.8.5",
