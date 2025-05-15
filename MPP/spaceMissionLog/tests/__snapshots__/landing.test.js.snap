@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <nav
+      class="navbar"
+    >
+      <div
+        class="logo"
+      >
+        <a
+          href="/"
+        >
+          Space Mission Log
+        </a>
+      </div>
+      <ul
+        class="navLinks"
+      >
+        <li>
+          <a
+            href="/missions"
+          >
+            Missions
+          </a>
+        </li>
+        <li>
+          <a
+            href="/missions/create"
+          >
+            Add Mission
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main
+      class="mainContent"
+    >
+      <div
+        class="landingContainer"
+      >
+        <div
+          class="videoBackground"
+        >
+          <video
+            autoplay=""
+            class="video"
+            data-testid="landing-video"
+            loop=""
+            playsinline=""
+            preload="auto"
+          >
+            <source
+              src="/rocket_motion.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div
+          class="overlay"
+        >
+          <h1
+            class="title"
+          >
+            Space Mission Log System
+          </h1>
+          <p
+            class="subtitle"
+          >
+            Track every mission detail in one place
+          </p>
+          <a
+            href="/missions"
+          >
+            <button
+              class="enterButton"
+            >
+              Enter
+            </button>
+          </a>
+        </div>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;

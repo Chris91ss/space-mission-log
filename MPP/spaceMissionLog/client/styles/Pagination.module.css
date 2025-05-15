@@ -1,0 +1,26 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.pagination button {
+  padding: 0.5rem 0.75rem;
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'League Spartan', sans-serif;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #0059c3;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
