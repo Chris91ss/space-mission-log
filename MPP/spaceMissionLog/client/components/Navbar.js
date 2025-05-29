@@ -52,6 +52,11 @@ export default function Navbar() {
               <Link href="/admin">Admin Dashboard</Link>
             </li>
           )}
+          {user && (
+            <li>
+              <Link href="/settings">Settings</Link>
+            </li>
+          )}
         </ul>
       </div>
       <div className={styles.authLinks}>
