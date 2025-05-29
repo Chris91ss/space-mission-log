@@ -146,8 +146,8 @@ async function startServer() {
     await sequelize.authenticate();
     console.log('Database connection established successfully.');
 
-    // Initialize database with models
-    await sequelize.sync();
+    // Initialize database with models - use alter: true to safely update schema
+    await sequelize.sync({ alter: true });
     console.log('Database models synchronized.');
 
     // Start server
